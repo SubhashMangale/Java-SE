@@ -20,6 +20,7 @@ class A{
   {
       int ans = a+b;
       System.out.println("Ans: "+ans);
+      System.out.println("Welcome to base class!!!");
   }
 }
 class B extends A{
@@ -27,6 +28,7 @@ class B extends A{
   {
       int ans = a*b;
       System.out.println("Ans: "+ans);
+	  System.out.println("Welcome to derived class!!!");
   }
 }
 class method_overriding{
@@ -40,8 +42,11 @@ class method_overriding{
 
 /*
 Output:
-10
-20
-Ans: 200
-here the function of derived class in executed and this is called as function/method overriding.
+100
+200
+Ans: 20000
+Welcome to derived class!!!
+
+here the function of derived class in executed and this is called as function/method overriding  because method of derived class overtakes method of base class with 
+but condition is that they must have same name.
 */
