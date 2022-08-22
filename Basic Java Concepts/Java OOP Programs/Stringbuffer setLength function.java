@@ -2,15 +2,15 @@
 
 import java.util.Scanner;
 class str{
-	StringBuffer s = new StringBuffer("Margott");
+	StringBuffer s = new StringBuffer("Margott_Robbie");
 	void original_size()
 	{
-		System.out.println("Original size of string: "+s.length());
+		System.out.println("Original size of string: "+s+" "+s.length());
 	}
 	void modified_size()
 	{
 		s.setLength(10);
-		System.out.println("Modified size of string: "+s.length());
+		System.out.println("Modified size of string: "+s+" "+s.length());
 	}
 	
 }
@@ -23,10 +23,8 @@ public class array {
 		obj.modified_size();
 	}
 }
-
 /*
 Output:
-Original size of string: 7
-Modified size of string: 10
-
+Original size of string: Margott_Robbie 14
+Modified size of string: Margott_Ro 10
 */
