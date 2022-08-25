@@ -4,10 +4,12 @@ ans: Vector is class in java and it is presented in java.util package.It is used
 
 Vector in c++ are similar to Vectors in java means variable sized array.
 Here 4 major functions are used:
-addElement(item)
-addElementAt(item,index at which item is to be inserted)
-removeElement(item)
-removeElementAt(index only)
+1.addElement(item)
+2.addElementAt(item,index at which item is to be inserted)
+3.removeElement(item)
+4.removeElementAt(index only)
+5.ewmoveAllElement()
+6.list.size() gives size of vector list.
 */
 
 import java.util.*;
@@ -27,3 +29,11 @@ class HelloWorld {
         System.out.println("Vector elements are"+v);
     }
 }
+/*
+Output:
+java -cp /tmp/JPPS6OVpcS HelloWorld
+Vector elements are[Ramesh, Suresh, Mahesh, Sudesh]
+Vector elements are[Ramesh, Suresh, Sandesh, Mahesh, Sudesh]
+Vector elements are[Ramesh, Sandesh, Sudesh]
+
+*/
