@@ -8,7 +8,7 @@ Here 4 major functions are used:
 2.addElementAt(item,index at which item is to be inserted)
 3.removeElement(item)
 4.removeElementAt(index only)
-5.ewmoveAllElement()
+5.ewmoveAllElements()
 6.list.size() gives size of vector list.
 */
 
@@ -27,6 +27,8 @@ class HelloWorld {
         v.removeElement("Mahesh");
         v.removeElementAt(1);
         System.out.println("Vector elements are"+v);
+        v.removeAllElements();
+        System.out.println("Vector elements are"+v);
     }
 }
 /*
@@ -35,5 +37,6 @@ java -cp /tmp/JPPS6OVpcS HelloWorld
 Vector elements are[Ramesh, Suresh, Mahesh, Sudesh]
 Vector elements are[Ramesh, Suresh, Sandesh, Mahesh, Sudesh]
 Vector elements are[Ramesh, Sandesh, Sudesh]
+Vector elements are[]
 
 */
