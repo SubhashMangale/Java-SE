@@ -1,24 +1,33 @@
 Basic Java Concepts:
 1] Java ( Basics of Programming ):
-1.	Introduction of Java:- Java was developed by James Gosling, Patrick Naughton and Mike Sheridan at Sun microsystem in 1991.In 1991 initial name of Java was Oak but it was TM of another brand so it renamed as a Java in 1995.
+1.	Introduction of Java:- Java was developed by James Gosling, Patrick Naughton and Mike Sheridan at Sun microsystem in 1991.In 1991 initial name of Java was Oak
+        but it was TM of another brand so it renamed as a Java in 1995.
 2.	Major application of Java:- Desktop applications, android applications ,web applications like (LinkedIn, Snap deal), Embedded system. Robotics and games.
 3.	Check java is installed in your in computer or not using command: Java -- version on command prompt. 
+
 4.	Features of Java:- 
 1)	Java is easy to learn. Concepts of C++ like pointers and operator overloading are removed in Java. 
 2)	Java is OOP. 
-3)	In Java, both compile time and run time error checking performed. Java mainly focuses on memory management and exception handling by introducing the feature of automatic garbage collector.
-4)	Java is platform independent. Here meaning is that in Java, we can make code in one machine and can run it on any other machine by using JDK. Why? In java when we compile code it is converted into Byte code and this code is platform independent and it is compatible to any other OS or machine but only condition is that on that machine JDK must be installed.
+
+3)	In Java, both compile time and run time error checking performed. Java mainly focuses on memory management and exception handling by introducing the feature 
+        of automatic garbage collector.
+        
+4)	Java is platform independent. Here meaning is that in Java, we can make code in one machine and can run it on any other machine by using JDK. Why? In java 
+        when we compile code it is converted into Byte code and this code is platform independent and it is compatible to any other OS or machine but only condition 
+        is that on that machine JDK must be installed.
+        
 5)	Java is most secure programming language because java program runs in JRE with almost null interaction with system OS.
-6)	Multithreading in Java: Java program can do many tasks simultaneously. Benefit of multithreading is that it utilizes same memory to execute multiple threads at the same time. E.g.: While typing some text, grammatical errors are checked along with our typing like in MS word.
+6)	Multithreading in Java: Java program can do many tasks simultaneously. Benefit of multithreading is that it utilizes same memory to execute multiple threads 
+        at the same time. E.g.: While typing some text, grammatical errors are checked along with our typing like in MS word.
 7)	Java program is architectural neutral. Java (.java) => byte code(.class).
 
 5.	Difference between C++ and Java:
         C++	                                                             Java
-i)	Platform dependent.	                                  i)	Platform independent.
+i)	Platform dependent.	                                    i)	Platform independent.
 ii)	Supports Operator overloading, pointers.	            ii)	Does not support pointers and op. overloading.
-iii)	It uses a compiler only.	                          iii)It uses both compiler and interpreter.(bytecode/.class)
-iv)	Runtime error detection is not present in the system.	iv)	Runtime error detection is handled by system.
-v)	New and delete keyword are used to manage objects.	   v)	Automatic Garbage collector is used for object management.
+iii)	It uses a compiler only.	                            iii)It uses both compiler and interpreter.(bytecode/.class)
+iv)	Runtime error detection is not present in the system.	    iv)	Runtime error detection is handled by system.
+v)	New and delete keyword are used to manage objects.	     v)	Automatic Garbage collector is used for object management.
 
 
 6.	Difference between JVM, JRE and JDK:
