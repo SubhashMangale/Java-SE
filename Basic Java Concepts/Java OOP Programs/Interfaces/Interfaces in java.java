@@ -1,6 +1,6 @@
 /*
 Interfaces:
-A interfaces is kind of class.It is class like structure which contains only Abstract methods and final fields.
+An interface is a kind of a class.It is class like structure which contains only Abstract methods and final fields.
 
 1. Abstract Methods:Abstract methods/functions are such types of functions which do not contain curly braces or we can say that which do not implemented.
 	e.g :void function();
